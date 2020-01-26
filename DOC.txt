@@ -1,0 +1,10 @@
+
+* crear compilado de programa con simbolos para que lo lea el debugger GNU
+1. vi sample.c 
+2. crear un programa
+3. compilar una version sin debug "gcc sample.c -o sample_without_debug"
+4. compilar una version con debug "gcc -ggdb sample.c -o sample_with_debug"
+5. debugear programa "gdb ./sample_with_debug"
+
+https://www.youtube.com/watch?v=LtWZxJiS6Oc&list=PLEZRH4q-1F9sI-OgkGHi3xKkiwwpHKsqt&index=2
+https://www.dragonjar.org/securitytubenet-el-youtube-de-la-seguridad-informatica.xhtml
